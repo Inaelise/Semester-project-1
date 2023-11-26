@@ -1,0 +1,23 @@
+:root {
+  /* Colors */
+  --black: #000000;
+  --white: #ffffff;
+  --green: #8fff00;
+
+  /* Shadows */
+  --drop-shadow: 10px 10px black;
+  --text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.36);
+  --img-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+  /* Font sizes */
+  --xl: 7rem;
+  --l: 5.8rem;
+  --m: 4rem;
+  --s: 2.6rem;
+  --xs: 2rem;
+
+  --mobile-l: 1, 4rem;
+  --mobile-m: 1, 1rem;
+
+  --footer: 1, 5rem;
+}
