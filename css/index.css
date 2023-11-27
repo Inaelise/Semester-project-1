@@ -1,0 +1,21 @@
+@import url(-variables.css);
+@import url(-header.css);
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  margin: 0;
+  font-family: var(--font);
+}
+
+header,
+footer {
+  background-color: var(--black);
+  color: var(--white);
+}
