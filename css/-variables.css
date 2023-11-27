@@ -20,4 +20,7 @@
   --mobile-m: 1, 1rem;
 
   --footer: 1, 5rem;
+
+  /* Font family */
+  --font: "Roboto", sans-serif;
 }
