@@ -19,3 +19,14 @@
   transform: translateY(310%);
   padding-left: 5rem;
 }
+
+.home-info {
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  max-width: 1299px;
+  border: 1px solid var(--black);
+  box-shadow: var(--drop-shadow);
+  font-size: var(--xs);
+  padding: 0 1.5rem;
+}
