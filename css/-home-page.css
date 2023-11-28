@@ -4,6 +4,8 @@
   margin: 0;
   height: 1050px;
   background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .home-main h1 {
@@ -11,13 +13,34 @@
   margin: 0;
   font-size: var(--m);
   font-weight: var(--med);
-  width: 75%;
+  width: 90%;
   text-shadow: var(--text-shadow);
 }
 
+.home-main button {
+  width: 210px;
+  height: 56px;
+  background-color: var(--green);
+  color: var(--black);
+  box-shadow: var(--btn-shadow);
+  border: none;
+  margin-top: 90px;
+  margin-left: 400px;
+}
+
+.home-main a {
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+  font-size: var(--xs);
+  font-weight: var(--bolder);
+  font-family: var(--font);
+}
+
 .banner-content {
-  transform: translateY(310%);
   padding-left: 5rem;
+  position: absolute;
+  top: 48%;
 }
 
 .home-info {
@@ -29,4 +52,9 @@
   box-shadow: var(--drop-shadow);
   font-size: var(--xs);
   padding: 0 1.5rem;
+  line-height: 145%;
+}
+
+.home-info p {
+  margin: 2rem 0rem;
 }
