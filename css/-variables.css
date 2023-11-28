@@ -10,16 +10,22 @@
   --img-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 
   /* Font sizes */
-  --xl: 7rem;
-  --l: 5.8rem;
-  --m: 4rem;
-  --s: 2.6rem;
-  --xs: 2rem;
+  --xl: 6.6rem;
+  --l: 5.4rem;
+  --m: 3.6rem;
+  --s: 2.2rem;
+  --xs: 1.3rem;
 
-  --mobile-l: 1, 4rem;
-  --mobile-m: 1, 1rem;
+  --mobile-l: 1.1rem;
+  --mobile-m: 0.8rem;
 
-  --footer: 1, 5rem;
+  --footer: 1.5rem;
+
+  /* Font weights */
+  --regular: 400;
+  --med: 500;
+  --bold: 700;
+  --bolder: 900;
 
   /* Font family */
   --font: "Roboto", sans-serif;
