@@ -8,6 +8,7 @@
   --drop-shadow: 10px 10px black;
   --text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.36);
   --img-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  --btn-shadow: 7px 7px black;
 
   /* Font sizes */
   --xl: 6.6rem;
