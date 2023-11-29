@@ -1,0 +1,61 @@
+.exhibitions-main h1 {
+  font-size: var(--xl);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.info-container {
+  border-top: 1px solid var(--black);
+  display: flex;
+  padding: 5rem;
+  gap: 3rem;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.info-container h2 {
+  background-color: var(--black);
+  color: var(--green);
+  display: inline-block;
+  padding: 1rem;
+  font-size: var(--m);
+  font-weight: var(--med);
+  box-shadow: var(--drop-shadow);
+  margin-top: 0;
+}
+
+.cosmos-img {
+  width: 640px;
+}
+
+.skeletons-img {
+  width: 640px;
+  filter: saturate(80%);
+}
+
+.anatomy-img {
+  width: 599px;
+}
+
+.robot-img {
+  width: 490px;
+}
+
+.eco-img {
+  width: 640px;
+}
+
+.cosmos-img,
+.skeletons-img,
+.anatomy-img,
+.robot-img,
+.eco-img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.info-eco {
+  padding-bottom: 2rem;
+}
