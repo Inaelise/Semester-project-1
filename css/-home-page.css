@@ -52,9 +52,124 @@
   box-shadow: var(--drop-shadow);
   font-size: var(--xs);
   padding: 0 1.5rem;
-  line-height: 145%;
 }
 
 .home-info p {
   margin: 2rem 0rem;
+}
+
+.home-main h2 {
+  font-size: var(--l);
+  font-weight: var(--med);
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: var(--text-shadow);
+  margin: 3rem 0rem;
+}
+
+.event-section {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 2rem 2rem;
+}
+
+.event-section h3 {
+  text-align: center;
+  font-size: var(--m);
+}
+
+.events-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.events {
+  border: 2px solid var(--green);
+  max-width: 420px;
+  height: 672px;
+}
+
+.events img {
+  width: 416px;
+  height: 278px;
+}
+
+.event-title {
+  font-size: var(--xs);
+  margin: 1rem 0rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.event-info {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.explore {
+  background-color: var(--black);
+  color: var(--white);
+  margin: auto;
+  margin-bottom: 4rem;
+  max-width: 80%;
+}
+
+.vr-img {
+  width: 506px;
+}
+
+.teacher-img {
+  width: 514px;
+}
+
+.hall-img {
+  width: 550px;
+}
+
+.vr-img,
+.teacher-img,
+.hall-img {
+  height: 100%;
+}
+
+.vr-img,
+.teacher-img,
+.hall-img,
+.events img {
+  object-fit: cover;
+}
+
+.explore-container {
+  display: flex;
+}
+
+.explore h4 {
+  color: var(--green);
+  text-transform: uppercase;
+  font-size: var(--s);
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.explore-info {
+  margin: 1rem 2rem;
+  margin-bottom: 0;
+}
+
+.explore p {
+  font-size: var(--xs);
+}
+
+.explore a {
+  text-transform: none;
+  font-weight: var(--regular);
+  text-decoration: underline;
+}
+
+.explore a:hover {
+  color: var(--green);
 }
