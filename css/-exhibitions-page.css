@@ -11,6 +11,11 @@
   gap: 3rem;
 }
 
+.info-container p {
+  font-size: var(--xs);
+  font-weight: var(--med);
+}
+
 .reverse {
   flex-direction: row-reverse;
 }
@@ -27,16 +32,16 @@
 }
 
 .cosmos-img {
-  width: 640px;
+  width: 520px;
 }
 
 .skeletons-img {
   width: 640px;
-  filter: saturate(80%);
+  filter: saturate(50%);
 }
 
 .anatomy-img {
-  width: 599px;
+  width: 499px;
 }
 
 .robot-img {
@@ -44,7 +49,7 @@
 }
 
 .eco-img {
-  width: 640px;
+  width: 600px;
 }
 
 .cosmos-img,
