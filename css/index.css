@@ -4,6 +4,8 @@
 @import url(-home-page.css);
 @import url(-exhibitions-page.css);
 
+@import url(-media.css);
+
 *,
 *:before,
 *:after {
