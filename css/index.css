@@ -48,6 +48,10 @@ footer a:hover:after {
   transform: scaleX(1);
 }
 
+.active {
+  border-bottom: 1px solid var(--white);
+}
+
 p {
   line-height: 150%;
 }
