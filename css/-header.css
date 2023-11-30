@@ -29,19 +29,6 @@ header .logo {
   gap: 3rem;
 }
 
-header a:after {
-  display: block;
-  content: "";
-  border-bottom: 1px solid var(--white);
-  transform: scaleX(0);
-  transition: transform 250ms ease-in-out;
-  transform-origin: 0% 50%;
-}
-
-header a:hover:after {
-  transform: scaleX(1);
-}
-
 .logo img:after {
   border-bottom: none;
 }
