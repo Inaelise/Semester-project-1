@@ -21,16 +21,22 @@
     <header>
       <div class="logo">
         <img
+          class="icon-logo"
           src="images/Logo icon white.png"
           alt="Bergen Science Museum logo"
         />
         <a href="index.html" title="Link to home page" aria-label="link">
           <img
+            class="name-logo"
             src="images/BERGEN SCIENCE MUSEUM.png"
             alt="Bergen Science Museum name logo"
           />
         </a>
       </div>
+      <input type="checkbox" id="hamburger-menu" />
+      <label for="hamburger-menu" class="menu-icon">
+        <i class="fas fa-bars"></i>
+      </label>
       <nav>
         <ul>
           <li>
@@ -49,11 +55,20 @@
           <li>
             <a href="visit-page.html" title="Go to visit page">Visit</a>
           </li>
+          <div class="extra-links">
+            <li><a href="document-page.html">Terms & Conditions</a></li>
+            <li><a href="document-page.html">Privacy Policy</a></li>
+            <li>
+              <input type="search" id="search" placeholder="Search..." /><label
+                for="search"
+                class="icon-container"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </label>
+            </li>
+          </div>
         </ul>
       </nav>
-      <div>
-        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
-      </div>
     </header>
     <main class="home-main">
       <section class="home-banner">
