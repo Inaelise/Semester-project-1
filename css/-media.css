@@ -23,6 +23,7 @@
     top: 20px;
     right: 5%;
   }
+
   /* Home page */
   .home-banner {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -88,6 +89,49 @@
   .explore a {
     font-size: 1.5rem;
   }
+
+  /* Footer */
+  .socials-container {
+    border-top: 1px solid var(--black);
+    border-bottom: 1px solid var(--black);
+  }
+
+  .socials {
+    gap: 3rem;
+  }
+
+  .socials a {
+    width: 60px;
+    height: 60px;
+  }
+
+  .socials i {
+    font-size: var(--s);
+  }
+
+  .head {
+    font-size: var(--xs);
+  }
+
+  .footer-info ul {
+    flex-direction: row;
+    gap: 5rem;
+  }
+
+  footer p,
+  footer a,
+  footer td {
+    font-size: var(--footer);
+  }
+
+  .location-hours {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer td {
+    padding: 1rem;
+  }
 }
 
 /* Desktop (769px and up) */
@@ -100,7 +144,7 @@
   nav {
     display: block;
     position: static;
-    height: 100%;
+    min-height: 100%;
     width: 100%;
   }
   .menu-icon {
@@ -182,9 +226,6 @@
 
   .explore p {
     font-size: var(--xs);
-  }
-
-  .explore a {
   }
 }
 

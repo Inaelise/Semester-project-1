@@ -6,23 +6,27 @@ footer ul {
 
 .socials-container {
   background-color: var(--white);
-  border-top: 1px solid var(--black);
-  border-bottom: 1px solid var(--black);
+  border-top: 3px solid var(--black);
+  border-bottom: 3px solid var(--black);
   padding: 1.5rem;
 }
 
 .socials {
-  gap: 3rem;
+  gap: 5rem;
 }
 
 .socials a {
   background-color: var(--black);
-  width: 60px;
-  height: 60px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.socials i {
+  font-size: var(--l);
 }
 
 .socials a:hover {
@@ -37,31 +41,37 @@ footer ul {
 .head {
   color: var(--green);
   text-align: center;
-  font-size: var(--xs);
+  font-size: var(--m);
   font-weight: var(--bolder);
   text-transform: uppercase;
 }
 
 .location-hours {
-  display: flex;
-  justify-content: center;
+  display: block;
   padding-top: 2.5rem;
 }
 
-.ul-links {
-  gap: 5rem;
+.footer-info ul {
+  flex-direction: column;
+  gap: 7rem;
   text-transform: uppercase;
+  text-align: center;
+  padding: 0;
 }
 
 footer p,
 footer a,
 footer td {
-  font-size: var(--footer);
+  font-size: 2.7rem;
   font-weight: var(--bolder);
 }
 
+footer p {
+  text-align: center;
+}
+
 footer td {
-  padding: 1rem;
+  padding: 3rem;
 }
 
 .last-td {
@@ -73,5 +83,6 @@ footer td {
 }
 
 table {
+  margin: auto;
   margin-top: -17px;
 }

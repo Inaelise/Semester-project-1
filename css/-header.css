@@ -48,7 +48,7 @@ header .logo {
 
 nav {
   display: none;
-  height: 90vh;
+  min-height: 90vh;
   width: 40%;
   position: absolute;
   background-color: var(--black);
