@@ -1,6 +1,6 @@
 .home-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/images/mammoth-1257288_1920\ cropped.jpg);
+    url(/images/scientific-2040795_1280.jpg);
   margin: 0;
   height: 1050px;
   background-repeat: no-repeat;
@@ -10,21 +10,19 @@
 
 .home-main h1 {
   color: var(--white);
-  margin: 0;
   font-size: var(--m);
   font-weight: var(--med);
-  width: 90%;
+  width: 100%;
   text-shadow: var(--text-shadow);
 }
 
 .home-main button {
-  width: 210px;
-  height: 56px;
+  width: 260px;
+  height: 80px;
   background-color: var(--green);
   color: var(--black);
-  box-shadow: var(--btn-shadow);
+  box-shadow: 13px 13px var(--black);
   border: none;
-  margin-top: 90px;
   margin-left: 400px;
 }
 
@@ -32,25 +30,23 @@
   text-decoration: none;
   color: inherit;
   text-transform: uppercase;
-  font-size: var(--xs);
+  font-size: var(--s);
   font-weight: var(--bolder);
   font-family: var(--font);
 }
 
 .banner-content {
-  padding-left: 5rem;
+  padding-left: 3rem;
   position: absolute;
-  top: 48%;
+  top: 57%;
 }
 
 .home-info {
-  margin: auto;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin: 3rem 3rem;
   max-width: 1299px;
   border: 1px solid var(--black);
   box-shadow: var(--drop-shadow);
-  font-size: var(--xs);
+  font-size: var(--s);
   padding: 0 1.5rem;
 }
 
@@ -80,24 +76,26 @@
 
 .events-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 4rem;
   flex-wrap: wrap;
 }
 
 .events {
-  border: 2px solid var(--green);
-  max-width: 420px;
-  height: 672px;
+  border: 5px solid var(--green);
+  max-width: 792px;
+  height: 1067px;
 }
 
 .events img {
-  width: 416px;
-  height: 278px;
+  width: 781px;
+  height: 500px;
 }
 
 .event-title {
-  font-size: var(--xs);
+  font-size: 2.7rem;
   margin: 1rem 0rem;
   text-align: center;
   text-decoration: underline;
@@ -106,7 +104,7 @@
 .event-info {
   margin-left: 1rem;
   margin-right: 1rem;
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -115,25 +113,14 @@
   color: var(--white);
   margin: auto;
   margin-bottom: 4rem;
-  max-width: 80%;
-}
-
-.vr-img {
-  width: 506px;
-}
-
-.teacher-img {
-  width: 514px;
-}
-
-.hall-img {
-  width: 550px;
+  max-width: 100%;
 }
 
 .vr-img,
 .teacher-img,
 .hall-img {
   height: 100%;
+  width: 100%;
 }
 
 .vr-img,
@@ -145,12 +132,13 @@
 
 .explore-container {
   display: flex;
+  flex-direction: column;
 }
 
 .explore h4 {
   color: var(--green);
   text-transform: uppercase;
-  font-size: var(--s);
+  font-size: var(--m);
   margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
@@ -161,13 +149,14 @@
 }
 
 .explore p {
-  font-size: var(--xs);
+  font-size: var(--s);
 }
 
 .explore a {
   text-transform: none;
   font-weight: var(--regular);
   text-decoration: underline;
+  font-size: var(--s);
 }
 
 .explore a:hover {

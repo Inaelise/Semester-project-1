@@ -1,10 +1,191 @@
 /* Tablet (481px and up) */
 @media (min-width: 30.1em) {
+  /* Header */
+  header {
+    height: 100%;
+    align-items: end;
+  }
+
+  header .logo {
+    gap: 25rem;
+  }
+
+  .name-logo {
+    width: 50%;
+  }
+
+  .icon-logo {
+    width: 12%;
+  }
+
+  .menu-icon {
+    font-size: var(--m);
+    top: 20px;
+    right: 5%;
+  }
+  /* Home page */
+  .home-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/images/mammoth-1257288_1920\ cropped.jpg);
+    margin: 0;
+    height: 1050px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .banner-content {
+    top: 48%;
+  }
+
+  .home-info {
+    font-size: 1.7rem;
+  }
+
+  .events {
+    border: 3px solid var(--green);
+    max-width: 620px;
+    height: 802px;
+  }
+
+  .events img {
+    width: 614px;
+    height: 360px;
+  }
+
+  .event-title {
+    font-size: var(--s);
+  }
+
+  .event-info {
+    font-size: 1.5rem;
+  }
+
+  .explore-container {
+    flex-direction: row;
+  }
+
+  .vr-img {
+    width: 506px;
+  }
+
+  .teacher-img {
+    width: 514px;
+  }
+
+  .hall-img {
+    width: 550px;
+  }
+
+  .explore h4 {
+    font-size: var(--s);
+  }
+
+  .explore p {
+    font-size: 1.5rem;
+  }
+
+  .explore a {
+    font-size: 1.5rem;
+  }
 }
 
 /* Desktop (769px and up) */
 @media (min-width: 48.1em) {
   /* Header */
+  header {
+    justify-content: space-between;
+  }
+
+  nav {
+    display: block;
+    position: static;
+    height: 100%;
+    width: 100%;
+  }
+  .menu-icon {
+    display: none;
+  }
+
+  header ul {
+    flex-direction: row;
+    justify-content: end;
+    font-size: var(--xs);
+  }
+
+  header li {
+    padding: 0rem 3rem;
+    border-bottom: none;
+  }
+
+  .extra-links {
+    display: none;
+  }
+
+  header .logo {
+    gap: 3rem;
+  }
+
+  .name-logo {
+    width: 80%;
+  }
+  .icon-logo {
+    width: 40%;
+  }
+
+  /* Home page */
+  .home-main button {
+    width: 210px;
+    height: 56px;
+    box-shadow: var(--btn-shadow);
+  }
+
+  .home-main a {
+    font-size: var(--xs);
+  }
+
+  .home-info {
+    font-size: var(--xs);
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .events-container {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .events {
+    border: 2px solid var(--green);
+    max-width: 420px;
+    height: 672px;
+  }
+
+  .events img {
+    width: 416px;
+    height: 278px;
+  }
+
+  .event-title {
+    font-size: var(--xs);
+  }
+
+  .event-info {
+    font-size: 1.2rem;
+  }
+
+  .explore {
+    max-width: 80%;
+  }
+
+  .explore p {
+    font-size: var(--xs);
+  }
+
+  .explore a {
+  }
 }
 
 /* Larger desktop (1025px and up) */

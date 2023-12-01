@@ -1,32 +1,41 @@
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   align-items: end;
+  align-items: center;
   padding: 0rem 2rem;
-}
-
-header i {
-  margin-bottom: 4rem;
-  color: var(--green);
+  position: relative;
+  height: 150px;
 }
 
 header ul {
   display: flex;
+  flex-direction: column;
   list-style: none;
-  font-size: var(--xs);
+  font-size: var(--s);
   font-weight: var(--bolder);
   text-transform: uppercase;
   margin: 1rem 0rem;
+  align-items: center;
+  padding: 0;
 }
 
 header li {
-  padding: 0rem 3rem;
+  padding: 2rem 2rem;
 }
 
 header .logo {
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 20rem;
+}
+
+.name-logo {
+  width: 80%;
+}
+
+.icon-logo {
+  width: 20%;
 }
 
 .logo img:after {
@@ -35,4 +44,59 @@ header .logo {
 
 .logo a:after {
   border-bottom: none;
+}
+
+nav {
+  display: none;
+  height: 90vh;
+  width: 40%;
+  position: absolute;
+  background-color: var(--black);
+  right: 0;
+  top: 105px;
+  z-index: 100;
+}
+
+header i {
+  color: var(--white);
+}
+
+.extra-links {
+  text-align: center;
+}
+
+.fa-magnifying-glass {
+  font-size: var(--s);
+  color: var(--black);
+  margin-right: 6px;
+}
+
+.icon-container {
+  display: inline;
+  background-color: var(--green);
+  padding: 0.55rem;
+}
+
+#search {
+  font-size: var(--s);
+  width: 80%;
+  padding: 0.5rem;
+  background-color: var(--black);
+  color: var(--white);
+  border: 2px solid var(--green);
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+.menu-icon {
+  font-size: var(--l);
+  position: absolute;
+  top: 35px;
+  right: 5%;
+}
+
+#hamburger-menu {
+  display: none;
 }
