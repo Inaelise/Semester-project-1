@@ -177,6 +177,35 @@
     width: 40%;
   }
 
+  .search-box,
+  .search-box i {
+    color: var(--green);
+    font-size: var(--xs);
+  }
+
+  .search-box {
+    display: block;
+  }
+
+  details {
+    position: absolute;
+    right: 70px;
+    top: 15px;
+  }
+
+  summary {
+    position: absolute;
+    right: -55px;
+  }
+
+  #desktop-search {
+    border: 2px solid var(--green);
+    background-color: var(--black);
+    color: var(--white);
+    height: 30px;
+    font-size: var(--xs);
+  }
+
   /* Home page */
   .home-main button {
     width: 210px;

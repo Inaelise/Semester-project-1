@@ -86,6 +86,10 @@ header i {
   border: 2px solid var(--green);
 }
 
+.search-box {
+  display: none;
+}
+
 #hamburger-menu:checked ~ nav {
   display: block;
 }
