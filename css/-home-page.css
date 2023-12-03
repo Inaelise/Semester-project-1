@@ -157,8 +157,5 @@
   font-weight: var(--regular);
   text-decoration: underline;
   font-size: var(--s);
-}
-
-.explore a:hover {
   color: var(--green);
 }

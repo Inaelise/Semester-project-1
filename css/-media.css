@@ -256,6 +256,14 @@
   .explore p {
     font-size: var(--xs);
   }
+
+  .explore a {
+    color: var(--white);
+  }
+
+  .explore a:hover {
+    color: var(--green);
+  }
 }
 
 /* Larger desktop (1025px and up) */
