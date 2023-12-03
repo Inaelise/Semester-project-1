@@ -7,17 +7,19 @@
 .info-container {
   border-top: 1px solid var(--black);
   display: flex;
+  flex-direction: column-reverse;
   padding: 5rem;
-  gap: 3rem;
+  gap: 1rem;
+  position: relative;
 }
 
 .info-container p {
-  font-size: var(--xs);
+  font-size: var(--s);
   font-weight: var(--med);
 }
 
 .reverse {
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
 }
 
 .info-container h2 {
@@ -25,31 +27,17 @@
   color: var(--green);
   display: inline-block;
   padding: 1rem;
-  font-size: var(--m);
+  font-size: var(--l);
   font-weight: var(--med);
   box-shadow: var(--drop-shadow);
   margin-top: 0;
-}
-
-.cosmos-img {
-  width: 520px;
+  position: absolute;
+  top: 450px;
+  z-index: 100;
 }
 
 .skeletons-img {
-  width: 640px;
   filter: saturate(50%);
-}
-
-.anatomy-img {
-  width: 499px;
-}
-
-.robot-img {
-  width: 490px;
-}
-
-.eco-img {
-  width: 600px;
 }
 
 .cosmos-img,
@@ -58,7 +46,9 @@
 .robot-img,
 .eco-img {
   object-fit: cover;
-  height: 100%;
+  height: 900px;
+  width: 100%;
+  box-shadow: var(--img-shadow);
 }
 
 .info-eco {
