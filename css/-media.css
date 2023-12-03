@@ -139,7 +139,7 @@
   }
 
   .info-container p {
-    font-size: var(--xs);
+    font-size: 1.7rem;
   }
 
   .reverse {
@@ -302,6 +302,11 @@
 
   .explore a:hover {
     color: var(--green);
+  }
+
+  /* Exhibitions page */
+  .info-container p {
+    font-size: var(--xs);
   }
 }
 
