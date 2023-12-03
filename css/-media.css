@@ -54,12 +54,13 @@
     height: 360px;
   }
 
-  .event-title {
+  .event-title,
+  .explore h4 {
     font-size: var(--s);
   }
 
   .event-info {
-    font-size: 1.5rem;
+    font-size: var(--ss);
   }
 
   .explore-container {
@@ -78,16 +79,9 @@
     width: 550px;
   }
 
-  .explore h4 {
-    font-size: var(--s);
-  }
-
-  .explore p {
-    font-size: 1.5rem;
-  }
-
+  .explore p,
   .explore a {
-    font-size: 1.5rem;
+    font-size: var(--ss);
   }
 
   /* Footer */
@@ -187,14 +181,17 @@
     display: block;
   }
 
-  details {
+  details,
+  summary {
     position: absolute;
+  }
+
+  details {
     right: 70px;
     top: 15px;
   }
 
   summary {
-    position: absolute;
     right: -55px;
   }
 
@@ -213,12 +210,14 @@
     box-shadow: var(--btn-shadow);
   }
 
-  .home-main a {
+  .home-main a,
+  .home-info,
+  .event-title,
+  .explore p {
     font-size: var(--xs);
   }
 
   .home-info {
-    font-size: var(--xs);
     margin: auto;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -241,20 +240,12 @@
     height: 278px;
   }
 
-  .event-title {
-    font-size: var(--xs);
-  }
-
   .event-info {
     font-size: 1.2rem;
   }
 
   .explore {
     max-width: 80%;
-  }
-
-  .explore p {
-    font-size: var(--xs);
   }
 
   .explore a {

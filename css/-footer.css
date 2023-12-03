@@ -62,7 +62,7 @@ footer ul {
 footer p,
 footer a,
 footer td {
-  font-size: 2.7rem;
+  font-size: var(--mobile-m);
   font-weight: var(--bolder);
 }
 
