@@ -88,7 +88,7 @@
       </nav>
     </header>
     <main>
-      <div>
+      <div class="contribute-banner">
         <h1>Contribute</h1>
       </div>
       <div>
@@ -97,37 +97,8 @@
           contributions are helpful!
         </p>
         <hr />
-        <div>
-          <p>Donations</p>
-          <div>
-            <form>
-              <label for="full-name">Full name *</label>
-              <input
-                type="text"
-                name="full-name"
-                id="full-name"
-                placeholder="Full name"
-                required
-              />
-              <label for="dono-email">Email *</label>
-              <input
-                type="email"
-                name="dono-email"
-                id="dono-email"
-                placeholder="Email"
-                required
-              />
-              <label for="amount">Amount *</label>
-              <input
-                type="number"
-                name="amount"
-                id="amount"
-                placeholder="Amount in NOK"
-                required
-              />
-              <input type="submit" value="Donate" />
-            </form>
-          </div>
+        <section>
+          <h2>Donations</h2>
           <div>
             <p>
               Donations are very welcome and are an important way we keep this
@@ -143,30 +114,58 @@
               and they will be able to assist you.
             </p>
           </div>
-          <p>Volunteer</p>
-          <div>
-            <p>
-              A number of people volunteer their time and effort to keep the
-              displays in good order and ready for visitors to come and enjoy.
-            </p>
-            <p>
-              Volunteering has its perks including getting to see behind the
-              scenes of a working museum, access to staff-only lectures, and a
-              monthly lunch where all staff and volunteers come together to
-              discuss ideas for future exhibits and strategies for the museum.
-            </p>
-            <p>
-              You can help volunteer in a number of different spheres. Please
-              <a href="visit-page.html">contact us</a> if you'd like to find out
-              more about how you can get involved.
-            </p>
-            <img
-              src="images/billetto-editorial-334686.jpg"
-              alt="A person using VR headset while painting on an easel"
+          <form>
+            <label for="full-name">Full name *</label>
+            <input
+              type="text"
+              name="full-name"
+              id="full-name"
+              placeholder="Full name"
+              required
             />
-          </div>
-        </div>
-        <p>Internships</p>
+            <label for="dono-email">Email *</label>
+            <input
+              type="email"
+              name="dono-email"
+              id="dono-email"
+              placeholder="Email"
+              required
+            />
+            <label for="amount">Amount *</label>
+            <input
+              type="number"
+              name="amount"
+              id="amount"
+              placeholder="Amount in NOK"
+              required
+            />
+            <input type="submit" value="Donate" />
+          </form>
+        </section>
+        <section>
+          <h2>Volunteer</h2>
+          <p>
+            A number of people volunteer their time and effort to keep the
+            displays in good order and ready for visitors to come and enjoy.
+          </p>
+          <p>
+            Volunteering has its perks including getting to see behind the
+            scenes of a working museum, access to staff-only lectures, and a
+            monthly lunch where all staff and volunteers come together to
+            discuss ideas for future exhibits and strategies for the museum.
+          </p>
+          <p>
+            You can help volunteer in a number of different spheres. Please
+            <a href="visit-page.html">contact us</a> if you'd like to find out
+            more about how you can get involved.
+          </p>
+          <img
+            src="images/billetto-editorial-334686.jpg"
+            alt="A person using VR headset while painting on an easel"
+          />
+        </section>
+        <section>
+        <h2>Internships</h2>
         <p>
           Are you interested in working in a museum? Do you enjoy the fun and
           excitement of sharing the wonders of nature with people? Well you
@@ -179,9 +178,57 @@
         <div>
           <a href="visit-page.html"><button>Contact us here</button></a>
         </div>
-      </div>
+      </section>
     </main>
-
-    <footer></footer>
+    <footer>
+      <div class="socials-container">
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <section class="footer-info">
+          <p class="head">Links</p>
+          <ul class="ul-links">
+            <li><a href="">Home</a></li>
+            <li><a href="">Exhibitions</a></li>
+            <li><a href="">Contribute</a></li>
+            <li><a href="">Visit</a></li>
+            <li><a href="">Terms & conditions</a></li>
+            <li><a href="">Privacy policy</a></li>
+          </ul>
+        </section>
+        <section class="location-hours">
+          <div>
+            <p class="head">Location</p>
+            <p>Rasmus Meyers allé 10, 5015 Bergen</p>
+          </div>
+          <div>
+            <p class="head">Opening hours</p>
+            <table>
+              <tr>
+                <td>Mon: Closed</td>
+                <td>Tue-Thu: 10:00-16:00</td>
+              </tr>
+              <tr>
+                <td>Fri: 10:00-19:00</td>
+                <td>Sat: 9:00-16:00</td>
+              </tr>
+              <tr>
+                <td colspan="2" class="last-td">Sun: 9:00-13:00</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+      </div>
+    </footer>
   </body>
 </html>
