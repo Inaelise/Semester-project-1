@@ -12,13 +12,14 @@ footer ul {
 }
 
 .socials {
-  gap: 5rem;
+  gap: 2rem;
+  padding: 0;
 }
 
 .socials a {
   background-color: var(--black);
-  width: 120px;
-  height: 120px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -26,7 +27,7 @@ footer ul {
 }
 
 .socials i {
-  font-size: var(--l);
+  font-size: var(--s);
 }
 
 .socials a:hover {
@@ -41,7 +42,7 @@ footer ul {
 .head {
   color: var(--green);
   text-align: center;
-  font-size: var(--m);
+  font-size: var(--s);
   font-weight: var(--bolder);
   text-transform: uppercase;
 }
@@ -53,7 +54,7 @@ footer ul {
 
 .footer-info ul {
   flex-direction: column;
-  gap: 7rem;
+  gap: 4rem;
   text-transform: uppercase;
   text-align: center;
   padding: 0;
@@ -62,7 +63,7 @@ footer ul {
 footer p,
 footer a,
 footer td {
-  font-size: var(--mobile-m);
+  font-size: var(--xs);
   font-weight: var(--bolder);
 }
 
@@ -71,7 +72,7 @@ footer p {
 }
 
 footer td {
-  padding: 3rem;
+  padding: 2.5rem;
 }
 
 .last-td {
@@ -79,7 +80,7 @@ footer td {
 }
 
 .location-hours > div {
-  padding: 1rem 4rem;
+  padding: 1rem 1rem;
 }
 
 table {

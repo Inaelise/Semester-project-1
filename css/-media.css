@@ -1,183 +1,76 @@
-/* Tablet (481px and up) */
-@media (min-width: 30.1em) {
-  /* Header */
-  header {
-    height: 100%;
-    align-items: end;
-  }
-
-  header .logo {
-    gap: 25rem;
-  }
-
-  .name-logo {
-    width: 50%;
-  }
-
-  .icon-logo {
-    width: 12%;
-  }
-
-  .menu-icon {
-    font-size: var(--m);
-    top: 20px;
-    right: 5%;
-  }
-
-  /* Footer */
-  .socials-container {
-    border-top: 1px solid var(--black);
-    border-bottom: 1px solid var(--black);
-  }
-
-  .socials {
-    gap: 3rem;
-  }
-
-  .socials a {
-    width: 60px;
-    height: 60px;
-  }
-
-  .socials i {
-    font-size: var(--s);
-  }
-
-  .head {
-    font-size: var(--xs);
-  }
-
-  .footer-info ul {
-    flex-direction: row;
-    gap: 5rem;
-  }
-
-  footer p,
-  footer a,
-  footer td {
-    font-size: var(--footer);
-  }
-
-  .location-hours {
-    display: flex;
-    justify-content: center;
-  }
-
-  footer td {
-    padding: 1rem;
+/* Desktop (769px and up) */
+@media screen and (min-width: 48.1em) {
+  /* Footer*/
+  .last {
+    margin-bottom: 4rem;
   }
 
   /* Home page */
   .home-banner {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url(/images/mammoth-1257288_1920\ cropped.jpg);
-    margin: 0;
-    height: 1050px;
+    min-height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
   }
 
-  .banner-content {
-    top: 48%;
-  }
-
-  .home-info {
-    font-size: 1.7rem;
-  }
-
-  .events {
-    border: 3px solid var(--green);
-    max-width: 620px;
-    height: 802px;
-  }
-
-  .events img {
-    width: 614px;
-    height: 360px;
-  }
-
-  .event-title,
-  .explore h4 {
+  .home-main h1 {
     font-size: var(--s);
   }
 
+  .home-main button {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    margin-left: 8rem;
+  }
+
+  .banner-content {
+    position: absolute;
+    padding: 0rem 1rem;
+    bottom: 0;
+  }
+
+  .events-container {
+    gap: 2rem;
+  }
+
+  .events {
+    border: 2px solid var(--green);
+    max-width: 420px;
+    height: 672px;
+  }
+
+  .events img {
+    width: 416px;
+    height: 278px;
+  }
+
   .event-info {
-    font-size: var(--ss);
+    font-size: 1.2rem;
   }
 
-  .explore-container {
-    flex-direction: row;
+  .explore {
+    max-width: 90%;
   }
 
-  .vr-img {
-    width: 506px;
-  }
-
-  .teacher-img {
-    width: 514px;
-  }
-
-  .hall-img {
-    width: 550px;
-  }
-
-  .explore p,
   .explore a {
-    font-size: var(--ss);
+    color: var(--white);
+  }
+
+  .explore a:hover {
+    color: var(--green);
   }
 
   /* Exhibitions page */
-  .info-container {
-    flex-direction: row;
-    gap: 3rem;
-  }
-
-  .info-container h2 {
-    position: static;
+  .h2-short,
+  .h2-long {
     font-size: var(--m);
-  }
-
-  .info-container p {
-    font-size: 1.7rem;
-  }
-
-  .reverse {
-    flex-direction: row-reverse;
-  }
-
-  .cosmos-img {
-    width: 520px;
-  }
-
-  .skeletons-img {
-    width: 640px;
-  }
-
-  .anatomy-img {
-    width: 499px;
-  }
-
-  .robot-img {
-    width: 490px;
-  }
-
-  .eco-img {
-    width: 600px;
-  }
-
-  .cosmos-img,
-  .skeletons-img,
-  .anatomy-img,
-  .robot-img,
-  .eco-img {
-    height: 100%;
-    position: static;
+    top: 20%;
   }
 }
 
-/* Desktop (769px and up) */
-@media (min-width: 48.1em) {
+@media screen and (min-width: 64em) {
   /* Header */
   header {
     justify-content: space-between;
@@ -197,10 +90,11 @@
     flex-direction: row;
     justify-content: end;
     font-size: var(--xs);
+    margin-bottom: -20px;
   }
 
   header li {
-    padding: 0rem 3rem;
+    padding: 0rem 2rem;
     border-bottom: none;
   }
 
@@ -209,14 +103,14 @@
   }
 
   header .logo {
-    gap: 3rem;
+    gap: 1rem;
   }
 
   .name-logo {
     width: 80%;
   }
   .icon-logo {
-    width: 40%;
+    width: 30%;
   }
 
   .search-box,
@@ -251,65 +145,111 @@
     font-size: var(--xs);
   }
 
-  /* Home page */
-  .home-main button {
-    width: 210px;
-    height: 56px;
-    box-shadow: var(--btn-shadow);
+  /* Footer */
+  .socials-container {
+    border-top: 1px solid var(--black);
+    border-bottom: 1px solid var(--black);
   }
 
-  .home-main a,
-  .home-info,
-  .event-title,
-  .explore p {
+  .socials {
+    gap: 3rem;
+  }
+
+  .socials a {
+    width: 60px;
+    height: 60px;
+  }
+
+  .socials i {
+    font-size: var(--s);
+  }
+
+  .head {
     font-size: var(--xs);
+  }
+
+  .footer-info ul {
+    flex-direction: row;
+    gap: 4.5rem;
+  }
+
+  footer p,
+  footer a,
+  footer td {
+    font-size: var(--footer);
+  }
+
+  .location-hours {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer td {
+    padding: 1rem;
+  }
+
+  /* Home page */
+  .home-banner {
+    height: 700px;
+  }
+
+  .home-main h1 {
+    font-size: var(--m);
+  }
+
+  .home-main button {
+    width: 185px;
+    height: 60px;
+  }
+
+  .home-main a {
+    font-size: var(--ss);
+  }
+
+  .banner-content {
+    bottom: 40px;
   }
 
   .home-info {
-    margin: auto;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .events-container {
-    flex-wrap: wrap;
     flex-direction: row;
-    gap: 2rem;
   }
 
-  .events {
-    border: 2px solid var(--green);
-    max-width: 420px;
-    height: 672px;
+  .explore-container {
+    flex-direction: row;
   }
 
-  .events img {
-    width: 416px;
-    height: 278px;
-  }
-
-  .event-info {
-    font-size: 1.2rem;
-  }
-
-  .explore {
-    max-width: 80%;
-  }
-
-  .explore a {
-    color: var(--white);
-  }
-
-  .explore a:hover {
-    color: var(--green);
+  .explore-info a {
+    font-size: var(--xs);
   }
 
   /* Exhibitions page */
-  .info-container p {
-    font-size: var(--xs);
+  .info-container {
+    flex-direction: row;
   }
-}
 
-/* Larger desktop (1025px and up) */
-@media (min-width: 64.1em) {
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  .h2-short,
+  .h2-long {
+    position: static;
+  }
+
+  .cosmos-img,
+  .skeletons-img,
+  .anatomy-img,
+  .robot-img,
+  .eco-img {
+    height: 100%;
+  }
+
+  .exhibitions-main h1 {
+    font-size: var(--l);
+  }
 }

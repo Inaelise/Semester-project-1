@@ -5,7 +5,7 @@
   --green: #8fff00;
 
   /* Shadows */
-  --drop-shadow: 10px 10px black;
+  --drop-shadow: 7px 7px black;
   --text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.36);
   --img-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   --btn-shadow: 7px 7px black;
@@ -13,7 +13,7 @@
   /* Font sizes */
   --xl: 5.6rem;
   --l: 4.5rem;
-  --m: 3.6rem;
+  --m: 3rem;
   --s: 2.2rem;
   --ss: 1.5rem;
   --xs: 1.3rem;

@@ -1,5 +1,5 @@
 .exhibitions-main h1 {
-  font-size: var(--xl);
+  font-size: var(--m);
   text-transform: uppercase;
   text-align: center;
 }
@@ -8,32 +8,34 @@
   border-top: 1px solid var(--black);
   display: flex;
   flex-direction: column-reverse;
-  padding: 5rem;
-  gap: 1rem;
   position: relative;
 }
 
 .info-container p {
-  font-size: var(--s);
-  font-weight: var(--med);
+  font-size: var(--xs);
+  padding: 0.5rem;
 }
 
 .reverse {
   flex-direction: column-reverse;
 }
 
-.info-container h2 {
+.h2-short,
+.h2-long {
   background-color: var(--black);
   color: var(--green);
   display: inline-block;
-  padding: 1rem;
-  font-size: var(--l);
+  padding: 0.5rem;
+  font-size: var(--s);
   font-weight: var(--med);
   box-shadow: var(--drop-shadow);
-  margin-top: 0;
   position: absolute;
-  top: 450px;
+  top: 100px;
   z-index: 100;
+}
+
+.h2-long {
+  font-size: 1.8rem;
 }
 
 .skeletons-img {
@@ -46,7 +48,6 @@
 .robot-img,
 .eco-img {
   object-fit: cover;
-  height: 900px;
   width: 100%;
   box-shadow: var(--img-shadow);
 }

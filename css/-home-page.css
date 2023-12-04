@@ -1,8 +1,8 @@
 .home-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(/images/scientific-2040795_1280.jpg);
   margin: 0;
-  height: 1050px;
+  height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -10,52 +10,51 @@
 
 .home-main h1 {
   color: var(--white);
-  font-size: var(--m);
+  font-size: var(--xs);
   font-weight: var(--med);
   width: 100%;
   text-shadow: var(--text-shadow);
 }
 
 .home-main button {
-  width: 260px;
-  height: 80px;
+  width: 150px;
+  height: 45px;
   background-color: var(--green);
   color: var(--black);
-  box-shadow: 13px 13px var(--black);
+  box-shadow: 7px 7px var(--black);
   border: none;
-  margin-left: 400px;
+  margin-top: 120px;
 }
 
 .home-main a {
   text-decoration: none;
   color: inherit;
   text-transform: uppercase;
-  font-size: var(--s);
+  font-size: var(--xs);
   font-weight: var(--bolder);
   font-family: var(--font);
 }
 
 .banner-content {
-  padding-left: 3rem;
   position: absolute;
-  top: 57%;
+  padding: 0rem 1rem;
 }
 
 .home-info {
-  margin: 3rem 3rem;
-  max-width: 1299px;
+  margin: 2rem 0.5rem;
+  max-width: 1300px;
   border: 1px solid var(--black);
   box-shadow: var(--drop-shadow);
-  font-size: var(--s);
-  padding: 0 1.5rem;
+  font-size: var(--xs);
+  padding: 0 0.5rem;
 }
 
 .home-info p {
-  margin: 2rem 0rem;
+  margin: 1.5rem 0rem;
 }
 
 .home-main h2 {
-  font-size: var(--l);
+  font-size: var(--m);
   font-weight: var(--med);
   text-transform: uppercase;
   text-align: center;
@@ -66,12 +65,12 @@
 .event-section {
   background-color: var(--black);
   color: var(--white);
-  padding: 2rem 2rem;
+  padding: 2rem 0rem;
 }
 
 .event-section h3 {
   text-align: center;
-  font-size: var(--m);
+  font-size: var(--s);
 }
 
 .events-container {
@@ -84,18 +83,13 @@
 }
 
 .events {
-  border: 5px solid var(--green);
+  border: 3px solid var(--green);
   max-width: 792px;
-  height: 1067px;
-}
-
-.events img {
-  width: 781px;
-  height: 500px;
+  /* min-height: 1067px; */
 }
 
 .event-title {
-  font-size: var(--mobile-m);
+  font-size: var(--ss);
   margin: 1rem 0rem;
   text-align: center;
   text-decoration: underline;
@@ -104,7 +98,7 @@
 .event-info {
   margin-left: 1rem;
   margin-right: 1rem;
-  font-size: 2rem;
+  font-size: var(--xs);
   margin-bottom: 2rem;
 }
 
@@ -114,6 +108,10 @@
   margin: auto;
   margin-bottom: 4rem;
   max-width: 100%;
+}
+
+.last {
+  margin-bottom: 0;
 }
 
 .vr-img,
@@ -138,19 +136,19 @@
 .explore h4 {
   color: var(--green);
   text-transform: uppercase;
-  font-size: var(--m);
+  font-size: var(--s);
   margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
 
 .explore-info {
-  margin: 1rem 2rem;
+  margin: 1rem 0.7rem;
   margin-bottom: 0;
 }
 
 .explore p,
 .explore a {
-  font-size: var(--s);
+  font-size: var(--xs);
 }
 
 .explore a {
@@ -158,4 +156,9 @@
   font-weight: var(--regular);
   text-decoration: underline;
   color: var(--green);
+}
+
+.home-main img,
+.events img {
+  width: 100%;
 }
