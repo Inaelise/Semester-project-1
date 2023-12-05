@@ -98,90 +98,101 @@
       <hr />
       <section>
         <h3>Donations</h3>
-        <div>
-          <p>
-            Donations are very welcome and are an important way we keep this
-            museum open and accessible to the whole community.
-          </p>
-          <p>
-            You can also support us by donating items of interest to the
-            museum's collections.
-          </p>
-          <p>
-            If you have some item or collection that you think others would
-            enjoy, please let us know by contacting our Collections Department
-            and they will be able to assist you.
-          </p>
+        <div class="donation">
+          <div>
+            <p>
+              Donations are very welcome and are an important way we keep this
+              museum open and accessible to the whole community.
+            </p>
+            <p>
+              You can also support us by donating items of interest to the
+              museum's collections.
+            </p>
+            <p>
+              If you have some item or collection that you think others would
+              enjoy, please let us know by contacting our Collections Department
+              and they will be able to assist you.
+            </p>
+          </div>
+          <form class="dono-form">
+            <label for="full-name">Full name *</label>
+            <input
+              type="text"
+              name="full-name"
+              id="full-name"
+              placeholder="Full name"
+              required
+            />
+            <label for="dono-email">Email *</label>
+            <input
+              type="email"
+              name="dono-email"
+              id="dono-email"
+              placeholder="Email"
+              required
+            />
+            <label for="amount">Amount *</label>
+            <input
+              type="number"
+              name="amount"
+              id="amount"
+              placeholder="Amount in NOK"
+              required
+            />
+            <input type="submit" value="Donate" />
+          </form>
         </div>
-        <form class="dono-form">
-          <label for="full-name">Full name *</label>
-          <input
-            type="text"
-            name="full-name"
-            id="full-name"
-            placeholder="Full name"
-            required
-          />
-          <label for="dono-email">Email *</label>
-          <input
-            type="email"
-            name="dono-email"
-            id="dono-email"
-            placeholder="Email"
-            required
-          />
-          <label for="amount">Amount *</label>
-          <input
-            type="number"
-            name="amount"
-            id="amount"
-            placeholder="Amount in NOK"
-            required
-          />
-          <input type="submit" value="Donate" />
-        </form>
       </section>
       <section>
         <h3>Volunteer</h3>
-        <img
-          src="images/billetto-editorial-334686.jpg"
-          alt="A person using VR headset while painting on an easel"
-        />
-        <div>
-          <p>
-            A number of people volunteer their time and effort to keep the
-            displays in good order and ready for visitors to come and enjoy.
-          </p>
-          <p>
-            Volunteering has its perks including getting to see behind the
-            scenes of a working museum, access to staff-only lectures, and a
-            monthly lunch where all staff and volunteers come together to
-            discuss ideas for future exhibits and strategies for the museum.
-          </p>
-          <p>
-            You can help volunteer in a number of different spheres. Please
-            <a class="volunteer-link" href="visit-page.html">contact us</a> if
-            you'd like to find out more about how you can get involved.
-          </p>
+        <div class="volunteer">
+          <div>
+            <img
+              src="images/billetto-editorial-334686.jpg"
+              alt="A person using VR headset while painting on an easel"
+            />
+          </div>
+          <div>
+            <p>
+              A number of people volunteer their time and effort to keep the
+              displays in good order and ready for visitors to come and enjoy.
+            </p>
+            <p>
+              Volunteering has its perks including getting to see behind the
+              scenes of a working museum, access to staff-only lectures, and a
+              monthly lunch where all staff and volunteers come together to
+              discuss ideas for future exhibits and strategies for the museum.
+            </p>
+            <p>
+              You can help volunteer in a number of different spheres. Please
+              <a class="volunteer-link" href="visit-page.html">contact us</a> if
+              you'd like to find out more about how you can get involved.
+            </p>
+          </div>
         </div>
       </section>
       <section>
         <h3>Internships</h3>
-        <img
-          src="images/people-219985_1280.jpg"
-          alt="Person using a microscope"
-        />
-        <p>
-          Are you interested in working in a museum? Do you enjoy the fun and
-          excitement of sharing the wonders of nature with people? Well you
-          could be just the right person to enjoy an internship at the museum.
-        </p>
-        <p>
-          You'll be learning from a number of different academics and people who
-          are passionate about science and sharing it with the wider community.
-        </p>
-        <div class="intern-container">
-          <a class="intern-link" href="visit-page.html">Contact us here</a>
+        <div class="internships">
+          <div class="intern-img">
+            <img
+              src="images/people-219985_1280.jpg"
+              alt="Person using a microscope"
+            />
+          </div>
+          <p>
+            Are you interested in working in a museum? Do you enjoy the fun and
+            excitement of sharing the wonders of nature with people? Well you
+            could be just the right person to enjoy an internship at the museum.
+          </p>
+          <p>
+            You'll be learning from a number of different academics and people
+            who are passionate about science and sharing it with the wider
+            community.
+          </p>
+          <div class="intern-container">
+            <a class="intern-link" href="visit-page.html">Contact us here</a>
+          </div>
         </div>
       </section>
     </main>
