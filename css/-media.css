@@ -1,4 +1,10 @@
-/* Desktop (769px and up) */
+@media screen and (min-width: 30.07em) {
+  /* Contribute page */
+  .contribute-banner {
+    height: 500px;
+  }
+}
+
 @media screen and (min-width: 48.1em) {
   /* Footer*/
   .last {
@@ -67,6 +73,25 @@
   .h2-long {
     font-size: var(--m);
     top: 20%;
+  }
+
+  /* Contribute page */
+  .contribute-banner {
+    height: 700px;
+  }
+
+  .contribute-main h1 {
+    font-size: var(--m);
+    top: 350px;
+  }
+
+  .dono-form {
+    text-align: center;
+  }
+
+  .dono-form input[type="submit"] {
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -251,5 +276,76 @@
 
   .exhibitions-main h1 {
     font-size: var(--l);
+  }
+
+  /* Contribute page */
+  .contribute-banner {
+    height: 950px;
+  }
+
+  .contribute-main h1 {
+    font-size: var(--l);
+    top: 350px;
+  }
+
+  .contribute-main h2 {
+    font-size: var(--s);
+  }
+
+  .contribute-main h3 {
+    font-size: 1.9rem;
+    text-align: left;
+    margin-left: 2.5rem;
+  }
+
+  .contribute-main p {
+    font-size: var(--ss);
+  }
+
+  .donation {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 2rem;
+    gap: 2rem;
+  }
+
+  .dono-form input[type="submit"]:hover {
+    background-color: var(--white);
+    cursor: pointer;
+  }
+
+  .volunteer {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 2rem;
+  }
+
+  .internships {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    margin: 2rem;
+  }
+
+  .intern-img {
+    margin: 2rem 8rem;
+    margin-bottom: 4rem;
+  }
+
+  .intern-container {
+    position: absolute;
+    top: 600px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3rem;
+  }
+
+  .intern-link {
+    box-shadow: var(--btn-shadow);
+    border: 2px solid var(--black);
+  }
+
+  .intern-link:hover {
+    background-color: var(--white);
   }
 }

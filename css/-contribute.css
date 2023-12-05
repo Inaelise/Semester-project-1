@@ -4,7 +4,7 @@
 }
 
 .contribute-banner {
-  background-image: url(/images/contribute.png);
+  background-image: url(/images/Contribute\ cropped.png);
   background-size: cover;
   height: 350px;
   position: relative;
@@ -91,4 +91,5 @@
   font-size: var(--xs);
   text-transform: uppercase;
   text-align: center;
+  border: 1px solid var(--black);
 }
