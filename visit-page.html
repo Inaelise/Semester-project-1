@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="The visit page of Bergen Science Museum"
@@ -83,118 +83,134 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="visit-main">
       <section>
         <div>
           <h1>Visit us</h1>
+        </div>
+        <div>
+          <img
+            class="visit-img"
+            src="images/toa-heftiba-412579 cropped.jpg"
+            alt="A huge skeleton hung up from the ceiling inside a museum"
+          />
+        </div>
+        <div class="visit-info">
           <p>On this page you can find information to help plan your visit.</p>
           <p>
             If you have any questions about your upcoming visit or any questions
             at all, please contact us using the form below.
           </p>
         </div>
-        <div>
-          <img
-            src="images/toa-heftiba-412579 cropped.jpg"
-            alt="A huge skeleton hung up from the ceiling inside a museum"
-          />
-        </div>
-        <div>
-          <h2>Contact us here</h2>
-          <form>
-            <label for="name">Name *</label>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Name"
-              required
+        <div class="contact-container">
+          <div class="form-container">
+            <h2>Contact us here</h2>
+            <form class="contact-form">
+              <label for="name">Name *</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                required
+              />
+              <label for="email">Email *</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              />
+              <label for="phone">Phone</label>
+              <input
+                type="number"
+                name="phone"
+                id="phone"
+                placeholder="Phone"
+                required
+              />
+              <label for="message">Message *</label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Message"
+                required
+              ></textarea>
+              <input type="submit" value="Send" />
+            </form>
+          </div>
+          <div>
+            <img
+              class="visit-img-desktop"
+              src="images/toa-heftiba-412579 cropped.jpg"
+              alt="A huge skeleton hung up from the ceiling inside a museum"
             />
-            <label for="email">Email *</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email"
-              required
-            />
-            <label for="phone">Phone</label>
-            <input
-              type="number"
-              name="phone"
-              id="phone"
-              placeholder="Phone"
-              required
-            />
-            <label for="message">Message *</label>
-            <textarea
-              name="message"
-              id="message"
-              placeholder="Message"
-              required
-            ></textarea>
-            <input type="submit" value="Send" />
-          </form>
-        </div>
-        <div>
-          <img src="images/toa-heftiba-412579.jpg" alt="" />
-          <a href="document-page.html"
-            >View our Terms and Conditions and Privacy Policy</a
-          >
+            <div class="visit-link-div">
+              <a class="visit-link" href="document-page.html"
+                >View our Terms and Conditions and Privacy Policy</a
+              >
+            </div>
+          </div>
         </div>
       </section>
-      <section>
+      <section class="info-section">
         <div>
-          <h3><i class="fa-solid fa-location-dot"></i>Location</h3>
-          <p>The museum is located at Rasmus Meyers allé 10</p>
-          <p>5015 Bergen</p>
+          <div>
+            <h3><i class="fa-solid fa-location-dot"></i>Location</h3>
+            <p>The museum is located at Rasmus Meyers allé 10</p>
+            <p>5015 Bergen</p>
+          </div>
+          <div>
+            <h3><i class="fa-solid fa-square-phone-flip"></i>Phone</h3>
+            <p>You can also reach us on this number: +4755530300</p>
+          </div>
+          <div>
+            <h3><i class="fa-solid fa-clock"></i>Opening Hours</h3>
+            <p><b>Monday: </b>Closed</p>
+            <p><b>Tuesday - Thursday:</b> 10:00-16:00</p>
+            <p><b>Friday:</b> 10:00-19:00</p>
+            <p><b>Saturday:</b> 9:00-16:00</p>
+            <p><b>Sunday:</b> 9:00-13:00</p>
+          </div>
+          <div>
+            <h3><i class="fa-solid fa-universal-access"></i>Accessibility</h3>
+            <p>
+              The museum has wheelchair accessibility ramps. It also has audio
+              guides and braille display signs for the visually impaired.
+            </p>
+          </div>
         </div>
         <div>
-          <h3><i class="fa-solid fa-square-phone-flip"></i>Phone</h3>
-          <p>You can also reach us on this number: +4755530300</p>
-        </div>
-        <div>
-          <h3><i class="fa-solid fa-clock"></i>Opening Hours</h3>
-          <p><b>Monday:</b>Closed</p>
-          <p><b>Tuesday - Thursday:</b> 10:00-16:00</p>
-          <p><b>Friday: 10:00-19:00</b></p>
-          <p><b>Saturday:</b> 9:00-16:00</p>
-          <p><b>Sunday:</b> 9:00-13:00</p>
-        </div>
-        <div>
-          <h3><i class="fa-solid fa-universal-access"></i>Accessibility</h3>
-          <p>
-            The museum has wheelchair accessibility ramps. It also has audio
-            guides and braille display signs for the visually impaired.
-          </p>
-        </div>
-        <div>
-          <h3><i class="fa-solid fa-ticket"></i>Admission</h3>
-          <p>The entrance is free for all.</p>
-          <p>
-            There are guided tours of the museum that leave every hour. These
-            tours are 70 NOK per person and include a handy printed guide of the
-            museum.
-          </p>
-          <p>
-            If you would like to organise a guided tour for your group of 6 or
-            more people, please contact us to arrange the tour.
-          </p>
-        </div>
-        <div>
-          <h3><i class="fa-solid fa-cookie-bite"></i>Food and Drink</h3>
-          <p>
-            There is a café attached to the museum where you can get light
-            lunches, soft drinks, coffee, snacks and more.
-          </p>
-        </div>
-        <div>
-          <h3><i class="fa-solid fa-bag-shopping"></i>Shop</h3>
-          <p>
-            Our shop offers a range of memorabilia from the museum as well as
-            great gifts and activity packs that allow you to continue to explore
-            science even after you've left the museum.
-          </p>
+          <div>
+            <h3><i class="fa-solid fa-ticket"></i>Admission</h3>
+            <p>The entrance is free for all.</p>
+            <p>
+              There are guided tours of the museum that leave every hour. These
+              tours are <b>70 NOK</b> per person and include a handy printed
+              guide of the museum.
+            </p>
+            <p>
+              If you would like to organise a guided tour for your group of 6 or
+              more people, please <a href="visit-page.html">contact us</a> to
+              arrange the tour.
+            </p>
+          </div>
+          <div>
+            <h3><i class="fa-solid fa-cookie-bite"></i>Food and Drink</h3>
+            <p>
+              There is a café attached to the museum where you can get light
+              lunches, soft drinks, coffee, snacks and more.
+            </p>
+          </div>
+          <div>
+            <h3><i class="fa-solid fa-bag-shopping"></i>Shop</h3>
+            <p>
+              Our shop offers a range of memorabilia from the museum as well as
+              great gifts and activity packs that allow you to continue to
+              explore science even after you've left the museum.
+            </p>
+          </div>
         </div>
       </section>
     </main>
