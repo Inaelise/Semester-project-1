@@ -1,0 +1,97 @@
+.visit-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  position: relative;
+}
+
+.visit-main h1 {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: var(--s);
+  padding: 0.5rem;
+  position: absolute;
+  z-index: 100;
+}
+
+.visit-main h1,
+.visit-info p {
+  color: var(--white);
+  text-shadow: var(--text-shadow);
+}
+
+.visit-info p {
+  font-size: 1rem;
+  margin: 0rem 0.5rem;
+}
+
+.visit-main h1,
+.visit-info {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.visit-info {
+  padding: 0.3rem 0;
+  position: absolute;
+  top: 370px;
+}
+
+.visit-main h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.visit-main h2,
+.info-section h3 {
+  font-size: var(--ss);
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 2px solid var(--black);
+  width: 100%;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form input[type="submit"] {
+  color: var(--green);
+  background-color: var(--black);
+  width: 50%;
+  margin: 1rem auto;
+  font-weight: var(--bold);
+}
+
+.visit-link {
+  color: var(--white);
+  background-color: var(--black);
+  text-decoration: none;
+  font-style: italic;
+  font-size: 0.9rem;
+  padding: 0.2rem;
+}
+
+.info-section {
+  margin: 3rem 0.5rem;
+}
+
+.info-section p {
+  font-size: var(--xxs);
+  margin: 0.5rem 0;
+}
+
+.info-section i {
+  margin-right: 0.5rem;
+}
+
+.info-section div {
+  margin: 3rem 0;
+}
+
+.info-section a {
+  font-weight: var(--bold);
+  color: var(--black);
+}
