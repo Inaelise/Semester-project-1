@@ -56,3 +56,30 @@ footer a:hover:after {
 p {
   line-height: 150%;
 }
+
+form {
+  padding: 1rem 0.5rem;
+}
+
+form label,
+form input[type="submit"] {
+  display: block;
+  margin: 0.5rem 0rem;
+  font-size: var(--xs);
+  font-weight: var(--med);
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+form input[type="submit"],
+form textarea {
+  font-family: var(--font);
+}
+
+form input,
+form textarea {
+  background-color: transparent;
+  width: 300px;
+  padding: 0.7rem 0.5rem;
+  font-size: var(--xxs);
+}
