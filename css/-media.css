@@ -3,6 +3,45 @@
   .contribute-banner {
     height: 500px;
   }
+
+  /* Visit page */
+  .visit-img {
+    height: 500px;
+  }
+
+  .visit-info p {
+    font-size: var(--xxs);
+  }
+  .visit-info {
+    top: 515px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 450px;
+  }
+  .form-container {
+    text-align: center;
+    display: block;
+  }
+
+  .contact-form {
+    display: inline-block;
+    text-align: left;
+  }
+
+  .visit-link {
+    font-size: var(--xxs);
+    padding: 0.5rem 1rem;
+  }
+
+  .visit-link-div {
+    margin-top: 1rem;
+  }
+
+  .info-section {
+    margin: 5rem 0.5rem;
+  }
 }
 
 @media screen and (min-width: 48.1em) {
@@ -85,13 +124,46 @@
     top: 350px;
   }
 
+  .contribute-main h3 {
+    font-size: var(--s);
+  }
+
+  .contribute-main p {
+    margin: 1rem 2rem;
+  }
+
   .dono-form {
-    text-align: center;
+    text-align: left;
+  }
+
+  .dontaion-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dono-form input {
+    width: 400px;
   }
 
   .dono-form input[type="submit"] {
     margin-right: auto;
     margin-left: auto;
+  }
+
+  /* Visit page */
+  .visit-img {
+    height: 700px;
+  }
+
+  .visit-main h1 {
+    font-size: var(--m);
+  }
+
+  .visit-info p {
+    font-size: var(--ss);
+  }
+  .visit-info {
+    top: 686px;
   }
 }
 
@@ -300,6 +372,7 @@
 
   .contribute-main p {
     font-size: var(--ss);
+    margin: 1rem 0.5rem;
   }
 
   .donation {
@@ -307,6 +380,10 @@
     flex-direction: row-reverse;
     margin: 2rem;
     gap: 2rem;
+  }
+
+  .dono-form {
+    padding: 0 0.5rem;
   }
 
   .dono-form input[type="submit"]:hover {
@@ -347,5 +424,76 @@
 
   .intern-link:hover {
     background-color: var(--white);
+  }
+
+  /* Visit page */
+  .visit-main h1 {
+    font-size: var(--l);
+    margin-bottom: 2rem;
+  }
+
+  .visit-info p {
+    text-align: center;
+  }
+
+  .visit-main h1,
+  .visit-info {
+    background-color: transparent;
+    position: static;
+  }
+
+  .visit-main h1,
+  .visit-info p {
+    color: var(--black);
+    text-shadow: none;
+  }
+
+  .visit-img {
+    display: none;
+  }
+
+  .visit-img-desktop {
+    display: block;
+    width: 514px;
+    margin-top: 0.5rem;
+  }
+
+  .contact-container {
+    display: flex;
+    gap: 3.3rem;
+    margin: 2rem 0;
+    justify-content: center;
+  }
+
+  .visit-main h2 {
+    font-size: var(--s);
+    margin-top: 0.5rem;
+  }
+
+  .visit-main form {
+    padding: 0;
+    padding-left: 0.5rem;
+  }
+
+  .visit-link-div {
+    text-align: center;
+    margin: 2.2rem 0;
+  }
+
+  .info-section {
+    border: 1px solid var(--black);
+    margin: 3rem 3rem;
+    box-shadow: var(--drop-shadow);
+    padding: 0 1rem;
+    display: flex;
+    gap: 4rem;
+  }
+
+  .info-section div {
+    margin: 1rem 0;
+  }
+
+  .info-section p {
+    font-size: var(--xs);
   }
 }
