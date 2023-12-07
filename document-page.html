@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
       content="The documents page of Bergen Science Museum"
@@ -18,11 +18,71 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="css/index.css" />
-    <title>Documents</title>
+    <title>Terms & Conditions and Privacy Policy</title>
   </head>
   <body>
-    <header></header>
-
+    <header>
+      <div class="logo">
+        <img
+          class="icon-logo"
+          src="images/Logo icon white.png"
+          alt="Bergen Science Museum logo"
+        />
+        <a href="index.html" title="Link to home page" aria-label="link">
+          <img
+            class="name-logo"
+            src="images/BERGEN SCIENCE MUSEUM.png"
+            alt="Bergen Science Museum name logo"
+          />
+        </a>
+      </div>
+      <input type="checkbox" id="hamburger-menu" />
+      <label for="hamburger-menu" class="menu-icon">
+        <i class="fas fa-bars"></i>
+      </label>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html" title="Go to home page">Home</a>
+          </li>
+          <li>
+            <a href="exhibitions-page.html" title="Go to exhibitions page">
+              Exhibitions
+            </a>
+          </li>
+          <li>
+            <a href="contribute-page.html" title="Go to contribute page">
+              Contribute
+            </a>
+          </li>
+          <li>
+            <a href="visit-page.html" title="Go to visit page">Visit</a>
+          </li>
+          <div class="extra-links">
+            <li><a href="document-page.html">Terms & Conditions</a></li>
+            <li><a href="document-page.html">Privacy Policy</a></li>
+            <li>
+              <input type="search" id="search" placeholder="Search..." /><label
+                for="search"
+                class="icon-container"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </label>
+            </li>
+          </div>
+          <div class="search-box">
+            <details>
+              <summary><i class="fa-solid fa-magnifying-glass"></i></summary>
+              <input
+                type="search"
+                id="desktop-search"
+                placeholder="Search..."
+              />
+            </details>
+          </div>
+        </ul>
+      </nav>
+    </header>
     <main>
       <h1>Terms and Conditions</h1>
       <p>Last Updated: 22/11/2023</p>
@@ -194,7 +254,55 @@
         <p>This privacy policy is governed by Norwegian law.</p>
       </div>
     </main>
-
-    <footer></footer>
+    <footer>
+      <div class="socials-container">
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <section class="footer-info">
+          <p class="head">Links</p>
+          <ul class="ul-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="exhibitions-page.html">Exhibitions</a></li>
+            <li><a href="contribute-page.html">Contribute</a></li>
+            <li><a href="visit-page.html">Visit</a></li>
+            <li><a href="document-page.html">Terms & conditions</a></li>
+            <li><a href="document-page.html">Privacy policy</a></li>
+          </ul>
+        </section>
+        <section class="location-hours">
+          <div>
+            <p class="head">Location</p>
+            <p>Rasmus Meyers allé 10, 5015 Bergen</p>
+          </div>
+          <div>
+            <p class="head">Opening hours</p>
+            <table>
+              <tr>
+                <td>Mon: Closed</td>
+                <td>Tue-Thu: 10:00-16:00</td>
+              </tr>
+              <tr>
+                <td>Fri: 10:00-19:00</td>
+                <td>Sat: 9:00-16:00</td>
+              </tr>
+              <tr>
+                <td colspan="2" class="last-td">Sun: 9:00-13:00</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+      </div>
+    </footer>
   </body>
 </html>
