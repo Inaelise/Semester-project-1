@@ -268,12 +268,13 @@
   .footer-info ul {
     flex-direction: row;
     gap: 4.5rem;
+    padding: 0 1rem;
   }
 
   footer p,
   footer a,
   footer td {
-    font-size: var(--footer);
+    font-size: 1.2rem;
   }
 
   .location-hours {
