@@ -299,6 +299,10 @@
     height: 60px;
   }
 
+  .home-main button:hover {
+    background-color: var(--white);
+  }
+
   .home-main a {
     font-size: var(--ss);
   }
@@ -402,6 +406,14 @@
     margin: 2rem;
   }
 
+  .volunteer-link {
+    color: var(--white);
+  }
+
+  .volunteer-link:hover {
+    color: var(--green);
+  }
+
   .internships {
     display: flex;
     flex-direction: column-reverse;
@@ -480,9 +492,17 @@
     padding-left: 0.5rem;
   }
 
+  .contact-form input[type="submit"]:hover {
+    color: var(--white);
+  }
+
   .visit-link-div {
     text-align: center;
     margin: 2.2rem 0;
+  }
+
+  .visit-link:hover {
+    color: var(--green);
   }
 
   .info-section {
@@ -500,5 +520,13 @@
 
   .info-section p {
     font-size: var(--xs);
+  }
+
+  .info-section a {
+    text-decoration: none;
+  }
+
+  .info-section a:hover {
+    text-decoration: underline;
   }
 }
