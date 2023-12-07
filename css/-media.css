@@ -329,6 +329,10 @@
     flex-direction: row;
   }
 
+  .info-container p {
+    padding: 0.5rem 1.5rem;
+  }
+
   .reverse {
     flex-direction: row-reverse;
   }
@@ -336,6 +340,7 @@
   .h2-short,
   .h2-long {
     position: static;
+    margin: 1.5rem;
   }
 
   .cosmos-img,
