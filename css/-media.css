@@ -436,7 +436,7 @@
   }
 
   .intern-link {
-    box-shadow: var(--btn-shadow);
+    box-shadow: var(--drop-shadow);
     border: 2px solid var(--black);
   }
 
