@@ -85,7 +85,6 @@
 .events {
   border: 3px solid var(--green);
   max-width: 792px;
-  /* min-height: 1067px; */
 }
 
 .event-title {
