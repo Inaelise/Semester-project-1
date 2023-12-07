@@ -53,7 +53,7 @@
   /* Home page */
   .home-banner {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(/images/mammoth-1257288_1920\ cropped.jpg);
+      url(../images/mammoth-1257288_1920\ cropped.jpg);
     min-height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
