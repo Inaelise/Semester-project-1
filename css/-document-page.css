@@ -1,0 +1,49 @@
+.document-main section {
+  background-color: var(--black);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.document-main h1 {
+  font-size: 1.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.document-main h1,
+.document-main h2,
+.updated {
+  text-align: center;
+}
+
+.document-main h2 {
+  font-size: var(--ss);
+}
+
+.updated {
+  margin: 0.5rem;
+}
+
+.document-info h2,
+.document-info p,
+.document-info li {
+  color: var(--white);
+}
+
+.document-info li {
+  line-height: 150%;
+}
+
+.document-info p,
+.document-info li {
+  font-size: var(--xs);
+}
+
+.document-info b {
+  color: var(--green);
+}
+
+.document-info a {
+  color: var(--green);
+}

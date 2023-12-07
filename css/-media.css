@@ -529,4 +529,43 @@
   .info-section a:hover {
     text-decoration: underline;
   }
+
+  /* Document page */
+  .document-info {
+    margin: 0 6rem;
+  }
+
+  .privacy {
+    margin-bottom: 3rem;
+  }
+
+  .document-main section {
+    padding: 1rem 7rem;
+  }
+
+  .document-main h1 {
+    font-size: var(--l);
+  }
+
+  .document-main h2 {
+    font-size: var(--s);
+  }
+
+  .updated {
+    font-size: var(--xs);
+  }
+
+  .document-info p,
+  .document-info li {
+    font-size: var(--ss);
+  }
+
+  .document-info a {
+    color: var(--white);
+    font-weight: var(--bold);
+  }
+
+  .document-info a:hover {
+    color: var(--green);
+  }
 }
