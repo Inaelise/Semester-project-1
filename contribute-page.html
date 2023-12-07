@@ -38,7 +38,7 @@
       </div>
       <input type="checkbox" id="hamburger-menu" />
       <label for="hamburger-menu" class="menu-icon">
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars" aria-label="Icon"></i>
       </label>
       <nav>
         <ul>
@@ -66,21 +66,29 @@
             <li><a href="document-page.html">Terms & Conditions</a></li>
             <li><a href="document-page.html">Privacy Policy</a></li>
             <li>
-              <input type="search" id="search" placeholder="Search..." /><label
-                for="search"
-                class="icon-container"
-              >
-                <i class="fa-solid fa-magnifying-glass"></i>
+              <input
+                type="search"
+                name="search"
+                id="search"
+                placeholder="Search..."
+                aria-label="Search"
+              /><label for="search" class="icon-container">
+                <i class="fa-solid fa-magnifying-glass" aria-label="Icon"></i>
               </label>
             </li>
           </div>
           <div class="search-box">
-            <details>
-              <summary><i class="fa-solid fa-magnifying-glass"></i></summary>
+            <details title="Click to open/close search box">
+              <summary>
+                <i class="fa-solid fa-magnifying-glass" aria-label="Icon"></i>
+              </summary>
+              <label for="desktop-search"></label>
               <input
                 type="search"
+                name="desktop-search"
                 id="desktop-search"
                 placeholder="Search..."
+                aria-label="Search"
               />
             </details>
           </div>
@@ -122,6 +130,7 @@
                 name="full-name"
                 id="full-name"
                 placeholder="Full name"
+                aria-label="Full name"
                 required
               />
               <label for="dono-email">Email *</label>
@@ -130,6 +139,7 @@
                 name="dono-email"
                 id="dono-email"
                 placeholder="Email"
+                aria-label="Email"
                 required
               />
               <label for="amount">Amount *</label>
@@ -138,9 +148,10 @@
                 name="amount"
                 id="amount"
                 placeholder="Amount in NOK"
+                aria-label="Amount"
                 required
               />
-              <input type="submit" value="Donate" />
+              <input type="submit" value="Donate" aria-label="Submit" />
             </form>
           </div>
         </div>
@@ -167,8 +178,13 @@
             </p>
             <p>
               You can help volunteer in a number of different spheres. Please
-              <a class="volunteer-link" href="visit-page.html">contact us</a> if
-              you'd like to find out more about how you can get involved.
+              <a
+                class="volunteer-link"
+                title="Link to visit page"
+                href="visit-page.html"
+                >contact us</a
+              >
+              if you'd like to find out more about how you can get involved.
             </p>
           </div>
         </div>
@@ -193,7 +209,12 @@
             community.
           </p>
           <div class="intern-container">
-            <a class="intern-link" href="visit-page.html">Contact us here</a>
+            <a
+              class="intern-link"
+              title="Link to visit page"
+              href="visit-page.html"
+              >Contact us here</a
+            >
           </div>
         </div>
       </section>
@@ -202,13 +223,19 @@
       <div class="socials-container">
         <ul class="socials">
           <li>
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a title="Link to Facebook" href="#"
+              ><i aria-label="Icon" class="fa-brands fa-facebook-f"></i
+            ></a>
           </li>
           <li>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a title="Link to Twitter" href="#"
+              ><i aria-label="Icon" class="fa-brands fa-twitter"></i
+            ></a>
           </li>
           <li>
-            <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+            <a title="Link to Snapchat" href="#"
+              ><i aria-label="Icon" class="fa-brands fa-snapchat"></i
+            ></a>
           </li>
         </ul>
       </div>
@@ -216,12 +243,30 @@
         <section class="footer-info">
           <p class="head">Links</p>
           <ul class="ul-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="exhibitions-page.html">Exhibitions</a></li>
-            <li><a href="contribute-page.html">Contribute</a></li>
-            <li><a href="visit-page.html">Visit</a></li>
-            <li><a href="document-page.html">Terms & conditions</a></li>
-            <li><a href="document-page.html">Privacy policy</a></li>
+            <li><a title="Link to home page" href="index.html">Home</a></li>
+            <li>
+              <a title="Link to exhibitions page" href="exhibitions-page.html"
+                >Exhibitions</a
+              >
+            </li>
+            <li>
+              <a title="Link to contribute page" href="contribute-page.html"
+                >Contribute</a
+              >
+            </li>
+            <li>
+              <a title="Link to visit page" href="visit-page.html">Visit</a>
+            </li>
+            <li>
+              <a title="Link to document page" href="document-page.html"
+                >Terms & conditions</a
+              >
+            </li>
+            <li>
+              <a title="Link to document page" href="document-page.html"
+                >Privacy policy</a
+              >
+            </li>
           </ul>
         </section>
         <section class="location-hours">

@@ -38,7 +38,7 @@
       </div>
       <input type="checkbox" id="hamburger-menu" />
       <label for="hamburger-menu" class="menu-icon">
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars" aria-label="Icon"></i>
       </label>
       <nav>
         <ul>
@@ -66,21 +66,29 @@
             <li><a href="document-page.html">Terms & Conditions</a></li>
             <li><a href="document-page.html">Privacy Policy</a></li>
             <li>
-              <input type="search" id="search" placeholder="Search..." /><label
-                for="search"
-                class="icon-container"
-              >
-                <i class="fa-solid fa-magnifying-glass"></i>
+              <input
+                type="search"
+                name="search"
+                id="search"
+                placeholder="Search..."
+                aria-label="Search"
+              /><label for="search" class="icon-container">
+                <i class="fa-solid fa-magnifying-glass" aria-label="Icon"></i>
               </label>
             </li>
           </div>
           <div class="search-box">
-            <details>
-              <summary><i class="fa-solid fa-magnifying-glass"></i></summary>
+            <details title="Click to open/close search box">
+              <summary>
+                <i class="fa-solid fa-magnifying-glass" aria-label="Icon"></i>
+              </summary>
+              <label for="desktop-search"></label>
               <input
                 type="search"
+                name="desktop-search"
                 id="desktop-search"
                 placeholder="Search..."
+                aria-label="Search"
               />
             </details>
           </div>
@@ -223,7 +231,7 @@
               src="images/andrew-ruiz-348421.jpg"
               alt="A person in a space suit sitting in a practice machine."
             />
-            <p class="event-title">Visiting Professor of Aeronautics</p>
+            <h4 class="event-title">Visiting Professor of Aeronautics</h4>
             <p class="event-info">
               It is our pleasure to announce that Professor Sheila Widnall from
               the Massachusetts Institute of Technology will be visiting us.
@@ -238,7 +246,7 @@
               src="images/roberto-nickson-396152 cropped.jpg"
               alt="A view inside a museum lobby and a person looking at a mounted elephant"
             />
-            <p class="event-title">Night in the Museum</p>
+            <h4 class="event-title">Night in the Museum</h4>
             <p class="event-info">
               Get your family together for an exciting night in the museum as
               you sleep over beside dinosaurs and science displays.
@@ -253,7 +261,7 @@
               src="images/exhibition-1863344_1920.jpg"
               alt="view of a museum hallway displaying different museum pieces"
             />
-            <p class="event-title">Energetica Exhibition on Loan</p>
+            <h4 class="event-title">Energetica Exhibition on Loan</h4>
             <p class="event-info">
               On loan from the NEMO Science Museum in Amsterdam, the Energetica
               exhibition is coming to the Community Science Museum. It's a
@@ -272,13 +280,19 @@
       <div class="socials-container">
         <ul class="socials">
           <li>
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a title="Link to Facebook" href="#"
+              ><i aria-label="Icon" class="fa-brands fa-facebook-f"></i
+            ></a>
           </li>
           <li>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a title="Link to Twitter" href="#"
+              ><i aria-label="Icon" class="fa-brands fa-twitter"></i
+            ></a>
           </li>
           <li>
-            <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+            <a title="Link to Snapchat" href="#"
+              ><i aria-label="Icon" class="fa-brands fa-snapchat"></i
+            ></a>
           </li>
         </ul>
       </div>
@@ -286,12 +300,30 @@
         <section class="footer-info">
           <p class="head">Links</p>
           <ul class="ul-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="exhibitions-page.html">Exhibitions</a></li>
-            <li><a href="contribute-page.html">Contribute</a></li>
-            <li><a href="visit-page.html">Visit</a></li>
-            <li><a href="document-page.html">Terms & conditions</a></li>
-            <li><a href="document-page.html">Privacy policy</a></li>
+            <li><a title="Link to home page" href="index.html">Home</a></li>
+            <li>
+              <a title="Link to exhibitions page" href="exhibitions-page.html"
+                >Exhibitions</a
+              >
+            </li>
+            <li>
+              <a title="Link to contribute page" href="contribute-page.html"
+                >Contribute</a
+              >
+            </li>
+            <li>
+              <a title="Link to visit page" href="visit-page.html">Visit</a>
+            </li>
+            <li>
+              <a title="Link to document page" href="document-page.html"
+                >Terms & conditions</a
+              >
+            </li>
+            <li>
+              <a title="Link to document page" href="document-page.html"
+                >Privacy policy</a
+              >
+            </li>
           </ul>
         </section>
         <section class="location-hours">

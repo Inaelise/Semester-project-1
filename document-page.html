@@ -38,7 +38,7 @@
       </div>
       <input type="checkbox" id="hamburger-menu" />
       <label for="hamburger-menu" class="menu-icon">
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars" aria-label="Icon"></i>
       </label>
       <nav>
         <ul>
@@ -62,21 +62,29 @@
             <li><a href="document-page.html">Terms & Conditions</a></li>
             <li><a href="document-page.html">Privacy Policy</a></li>
             <li>
-              <input type="search" id="search" placeholder="Search..." /><label
-                for="search"
-                class="icon-container"
-              >
-                <i class="fa-solid fa-magnifying-glass"></i>
+              <input
+                type="search"
+                name="search"
+                id="search"
+                placeholder="Search..."
+                aria-label="Search"
+              /><label for="search" class="icon-container">
+                <i class="fa-solid fa-magnifying-glass" aria-label="Icon"></i>
               </label>
             </li>
           </div>
           <div class="search-box">
-            <details>
-              <summary><i class="fa-solid fa-magnifying-glass"></i></summary>
+            <details title="Click to open/close search box">
+              <summary>
+                <i class="fa-solid fa-magnifying-glass" aria-label="Icon"></i>
+              </summary>
+              <label for="desktop-search"></label>
               <input
                 type="search"
+                name="desktop-search"
                 id="desktop-search"
                 placeholder="Search..."
+                aria-label="Search"
               />
             </details>
           </div>
@@ -202,7 +210,7 @@
           <p>
             For any questions regarding these Terms, please contact us at
             +4755530300 or through our contact form
-            <a href="visit-page.html">here</a>.
+            <a title="Link to visit page" href="visit-page.html">here</a>.
           </p>
         </div>
       </section>
@@ -289,7 +297,7 @@
           <p>
             For any questions or concerns about our privacy policy, please
             contact us at +4755530300 or through our contact form
-            <a href="visit-page.html">here</a>.
+            <a title="Link to visit page" href="visit-page.html">here</a>.
           </p>
         </div>
         <div>
@@ -302,13 +310,19 @@
       <div class="socials-container">
         <ul class="socials">
           <li>
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a title="Link to Facebook" href="#"
+              ><i aria-label="Icon" class="fa-brands fa-facebook-f"></i
+            ></a>
           </li>
           <li>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a title="Link to Twitter" href="#"
+              ><i aria-label="Icon" class="fa-brands fa-twitter"></i
+            ></a>
           </li>
           <li>
-            <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+            <a title="Link to Snapchat" href="#"
+              ><i aria-label="Icon" class="fa-brands fa-snapchat"></i
+            ></a>
           </li>
         </ul>
       </div>
@@ -316,12 +330,30 @@
         <section class="footer-info">
           <p class="head">Links</p>
           <ul class="ul-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="exhibitions-page.html">Exhibitions</a></li>
-            <li><a href="contribute-page.html">Contribute</a></li>
-            <li><a href="visit-page.html">Visit</a></li>
-            <li><a href="document-page.html">Terms & conditions</a></li>
-            <li><a href="document-page.html">Privacy policy</a></li>
+            <li><a title="Link to home page" href="index.html">Home</a></li>
+            <li>
+              <a title="Link to exhibitions page" href="exhibitions-page.html"
+                >Exhibitions</a
+              >
+            </li>
+            <li>
+              <a title="Link to contribute page" href="contribute-page.html"
+                >Contribute</a
+              >
+            </li>
+            <li>
+              <a title="Link to visit page" href="visit-page.html">Visit</a>
+            </li>
+            <li>
+              <a title="Link to document page" href="document-page.html"
+                >Terms & conditions</a
+              >
+            </li>
+            <li>
+              <a title="Link to document page" href="document-page.html"
+                >Privacy policy</a
+              >
+            </li>
           </ul>
         </section>
         <section class="location-hours">

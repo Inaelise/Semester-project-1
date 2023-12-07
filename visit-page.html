@@ -38,7 +38,7 @@
       </div>
       <input type="checkbox" id="hamburger-menu" />
       <label for="hamburger-menu" class="menu-icon">
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars" aria-label="Icon"></i>
       </label>
       <nav>
         <ul>
@@ -64,21 +64,29 @@
             <li><a href="document-page.html">Terms & Conditions</a></li>
             <li><a href="document-page.html">Privacy Policy</a></li>
             <li>
-              <input type="search" id="search" placeholder="Search..." /><label
-                for="search"
-                class="icon-container"
-              >
-                <i class="fa-solid fa-magnifying-glass"></i>
+              <input
+                type="search"
+                name="search"
+                id="search"
+                placeholder="Search..."
+                aria-label="Search"
+              /><label for="search" class="icon-container">
+                <i class="fa-solid fa-magnifying-glass" aria-label="Icon"></i>
               </label>
             </li>
           </div>
           <div class="search-box">
-            <details>
-              <summary><i class="fa-solid fa-magnifying-glass"></i></summary>
+            <details title="Click to open/close search box">
+              <summary>
+                <i class="fa-solid fa-magnifying-glass" aria-label="Icon"></i>
+              </summary>
+              <label for="desktop-search"></label>
               <input
                 type="search"
+                name="desktop-search"
                 id="desktop-search"
                 placeholder="Search..."
+                aria-label="Search"
               />
             </details>
           </div>
@@ -94,7 +102,7 @@
           <img
             class="visit-img"
             src="images/toa-heftiba-412579 cropped.jpg"
-            alt="A huge skeleton hung up from the ceiling inside a museum"
+            alt="A big skeleton hung up from the ceiling inside a museum"
           />
         </div>
         <div class="visit-info">
@@ -114,6 +122,7 @@
                 name="name"
                 id="name"
                 placeholder="Name"
+                aria-label="Name"
                 required
               />
               <label for="email">Email *</label>
@@ -122,6 +131,7 @@
                 name="email"
                 id="email"
                 placeholder="Email"
+                aria-label="Email"
                 required
               />
               <label for="phone">Phone</label>
@@ -130,6 +140,7 @@
                 name="phone"
                 id="phone"
                 placeholder="Phone"
+                aria-label="Phone number"
                 required
               />
               <label for="message">Message *</label>
@@ -137,9 +148,10 @@
                 name="message"
                 id="message"
                 placeholder="Message"
+                aria-label="Message"
                 required
               ></textarea>
-              <input type="submit" value="Send" />
+              <input type="submit" value="Send" aria-label="Submit" />
             </form>
           </div>
           <div>
@@ -149,7 +161,10 @@
               alt="A huge skeleton hung up from the ceiling inside a museum"
             />
             <div class="visit-link-div">
-              <a class="visit-link" href="document-page.html"
+              <a
+                class="visit-link"
+                title="Link to document page"
+                href="document-page.html"
                 >View our Terms and Conditions and Privacy Policy</a
               >
             </div>
@@ -159,16 +174,23 @@
       <section class="info-section">
         <div>
           <div>
-            <h3><i class="fa-solid fa-location-dot"></i>Location</h3>
+            <h3>
+              <i class="fa-solid fa-location-dot" aria-label="Icon"></i>Location
+            </h3>
             <p>The museum is located at Rasmus Meyers allé 10</p>
             <p>5015 Bergen</p>
           </div>
           <div>
-            <h3><i class="fa-solid fa-square-phone-flip"></i>Phone</h3>
+            <h3>
+              <i class="fa-solid fa-square-phone-flip" aria-label="Icon"></i
+              >Phone
+            </h3>
             <p>You can also reach us on this number: +4755530300</p>
           </div>
           <div>
-            <h3><i class="fa-solid fa-clock"></i>Opening Hours</h3>
+            <h3>
+              <i class="fa-solid fa-clock" aria-label="Icon"></i>Opening Hours
+            </h3>
             <p><b>Monday: </b>Closed</p>
             <p><b>Tuesday - Thursday:</b> 10:00-16:00</p>
             <p><b>Friday:</b> 10:00-19:00</p>
@@ -176,7 +198,10 @@
             <p><b>Sunday:</b> 9:00-13:00</p>
           </div>
           <div>
-            <h3><i class="fa-solid fa-universal-access"></i>Accessibility</h3>
+            <h3>
+              <i class="fa-solid fa-universal-access" aria-label="Icon"></i
+              >Accessibility
+            </h3>
             <p>
               The museum has wheelchair accessibility ramps. It also has audio
               guides and braille display signs for the visually impaired.
@@ -185,7 +210,9 @@
         </div>
         <div>
           <div>
-            <h3><i class="fa-solid fa-ticket"></i>Admission</h3>
+            <h3>
+              <i class="fa-solid fa-ticket" aria-label="Icon"></i>Admission
+            </h3>
             <p>The entrance is free for all.</p>
             <p>
               There are guided tours of the museum that leave every hour. These
@@ -194,19 +221,27 @@
             </p>
             <p>
               If you would like to organise a guided tour for your group of 6 or
-              more people, please <a href="visit-page.html">contact us</a> to
-              arrange the tour.
+              more people, please
+              <a title="Link to current page" href="visit-page.html"
+                >contact us</a
+              >
+              to arrange the tour.
             </p>
           </div>
           <div>
-            <h3><i class="fa-solid fa-cookie-bite"></i>Food and Drink</h3>
+            <h3>
+              <i class="fa-solid fa-cookie-bite" aria-label="Icon"></i>Food and
+              Drink
+            </h3>
             <p>
               There is a café attached to the museum where you can get light
               lunches, soft drinks, coffee, snacks and more.
             </p>
           </div>
           <div>
-            <h3><i class="fa-solid fa-bag-shopping"></i>Shop</h3>
+            <h3>
+              <i class="fa-solid fa-bag-shopping" aria-label="Icon"></i>Shop
+            </h3>
             <p>
               Our shop offers a range of memorabilia from the museum as well as
               great gifts and activity packs that allow you to continue to
@@ -220,13 +255,19 @@
       <div class="socials-container">
         <ul class="socials">
           <li>
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a title="Link to Facebook" href="#"
+              ><i aria-label="Icon" class="fa-brands fa-facebook-f"></i
+            ></a>
           </li>
           <li>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a title="Link to Twitter" href="#"
+              ><i aria-label="Icon" class="fa-brands fa-twitter"></i
+            ></a>
           </li>
           <li>
-            <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+            <a title="Link to Snapchat" href="#"
+              ><i aria-label="Icon" class="fa-brands fa-snapchat"></i
+            ></a>
           </li>
         </ul>
       </div>
@@ -234,12 +275,30 @@
         <section class="footer-info">
           <p class="head">Links</p>
           <ul class="ul-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="exhibitions-page.html">Exhibitions</a></li>
-            <li><a href="contribute-page.html">Contribute</a></li>
-            <li><a href="visit-page.html">Visit</a></li>
-            <li><a href="document-page.html">Terms & conditions</a></li>
-            <li><a href="document-page.html">Privacy policy</a></li>
+            <li><a title="Link to home page" href="index.html">Home</a></li>
+            <li>
+              <a title="Link to exhibitions page" href="exhibitions-page.html"
+                >Exhibitions</a
+              >
+            </li>
+            <li>
+              <a title="Link to contribute page" href="contribute-page.html"
+                >Contribute</a
+              >
+            </li>
+            <li>
+              <a title="Link to visit page" href="visit-page.html">Visit</a>
+            </li>
+            <li>
+              <a title="Link to document page" href="document-page.html"
+                >Terms & conditions</a
+              >
+            </li>
+            <li>
+              <a title="Link to document page" href="document-page.html"
+                >Privacy policy</a
+              >
+            </li>
           </ul>
         </section>
         <section class="location-hours">

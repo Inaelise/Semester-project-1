@@ -92,6 +92,7 @@
   margin: 1rem 0rem;
   text-align: center;
   text-decoration: underline;
+  font-weight: var(--regular);
 }
 
 .event-info {
@@ -132,7 +133,7 @@
   flex-direction: column;
 }
 
-.explore h4 {
+.explore h5 {
   color: var(--green);
   text-transform: uppercase;
   font-size: var(--s);
