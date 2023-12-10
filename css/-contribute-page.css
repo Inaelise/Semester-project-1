@@ -56,6 +56,10 @@
   font-weight: var(--bolder);
 }
 
+.dono-form input:focus {
+  border: 3px solid var(--white);
+}
+
 .volunteer-link {
   color: var(--green);
 }

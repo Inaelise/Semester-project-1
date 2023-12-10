@@ -26,6 +26,10 @@ footer ul {
   justify-content: center;
 }
 
+.socials a:focus {
+  border: 3px solid var(--green);
+}
+
 .socials i {
   font-size: var(--s);
 }
