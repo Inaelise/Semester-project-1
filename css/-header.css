@@ -86,6 +86,7 @@ header i {
 
 .search-box {
   display: none;
+  cursor: pointer;
 }
 
 #hamburger-menu:checked ~ nav {
