@@ -89,7 +89,7 @@ form textarea {
   font-size: var(--xxs);
 }
 
-input {
+input, textarea {
   -webkit-appearance: none;
   border-radius: 0;
 }
