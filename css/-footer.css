@@ -12,8 +12,11 @@ footer ul {
 }
 
 .socials {
-  gap: 2rem;
   padding: 0;
+}
+
+.socials li {
+  margin: 0 1rem;
 }
 
 .socials a {
@@ -58,10 +61,13 @@ footer ul {
 
 .footer-info ul {
   flex-direction: column;
-  gap: 4rem;
   text-transform: uppercase;
   text-align: center;
   padding: 0;
+}
+
+.ul-links li {
+  margin: 1.5rem 0;
 }
 
 footer p,

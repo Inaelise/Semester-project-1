@@ -248,8 +248,8 @@
     border-bottom: 1px solid var(--black);
   }
 
-  .socials {
-    gap: 3rem;
+  .socials li {
+    margin: 0 2rem;
   }
 
   .socials a {
@@ -267,8 +267,11 @@
 
   .footer-info ul {
     flex-direction: row;
-    gap: 4.5rem;
     padding: 0 1rem;
+  }
+
+  .ul-links li {
+    margin: 0 2.5rem;
   }
 
   footer p,
