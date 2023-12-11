@@ -318,6 +318,7 @@
   .home-info {
     margin-right: auto;
     margin-left: auto;
+    padding: 0 1.5rem;
   }
 
   .events-container {
