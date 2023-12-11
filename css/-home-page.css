@@ -10,7 +10,7 @@
 
 .home-main h1 {
   color: var(--white);
-  font-size: var(--xs);
+  font-size: var(--ss);
   font-weight: var(--med);
   width: 100%;
   text-shadow: var(--text-shadow);
