@@ -1,6 +1,6 @@
 .home-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../images/scientific-2040795_1280.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/mammoth-1257288_1920\ 2\ down\ sized.jpg);
   margin: 0;
   height: 400px;
   background-repeat: no-repeat;
@@ -14,6 +14,7 @@
   font-weight: var(--med);
   width: 100%;
   text-shadow: var(--text-shadow);
+  text-align: left;
 }
 
 .home-main button {
@@ -23,7 +24,6 @@
   color: var(--black);
   box-shadow: 7px 7px var(--black);
   border: none;
-  margin-top: 120px;
 }
 
 .home-main a {
@@ -38,6 +38,8 @@
 .banner-content {
   position: absolute;
   padding: 0rem 1rem;
+  bottom: 2.5rem;
+  text-align: center;
 }
 
 .home-info {
@@ -49,11 +51,15 @@
   padding: 0 0.5rem;
 }
 
+.home-main h2 {
+  text-align: center;
+}
+
 .home-info p {
   margin: 1.5rem 0rem;
 }
 
-.home-main h2 {
+.home-main h3 {
   font-size: var(--m);
   font-weight: var(--med);
   text-transform: uppercase;
@@ -68,7 +74,7 @@
   padding: 2rem 0rem;
 }
 
-.event-section h3 {
+.event-section h4 {
   text-align: center;
   font-size: var(--s);
 }
@@ -133,7 +139,7 @@
   flex-direction: column;
 }
 
-.explore h5 {
+.explore h6 {
   color: var(--green);
   text-transform: uppercase;
   font-size: var(--s);
