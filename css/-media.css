@@ -1,5 +1,15 @@
 @media screen and (min-width: 30.07em) {
-  /* Contribute page */
+/* Home page */
+.home-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/mammoth-1257288_1920\ cropped.jpg);
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Contribute page */
   .contribute-banner {
     height: 500px;
   }
@@ -51,15 +61,6 @@
   }
 
   /* Home page */
-  .home-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(../images/mammoth-1257288_1920\ cropped.jpg);
-    min-height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-
   .home-main h1 {
     font-size: var(--s);
   }
@@ -357,6 +358,11 @@
   .robot-img,
   .eco-img {
     height: 100%;
+  }
+
+  .cosmos-img, .anatomy-img,
+  .robot-img, .eco-img {
+    width: 500px;
   }
 
   .exhibitions-main h1 {
