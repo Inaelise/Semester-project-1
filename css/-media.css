@@ -291,7 +291,7 @@
 
   /* Home page */
   .home-banner {
-    height: 700px;
+    height: 800px;
   }
 
   .home-main h1 {
@@ -432,13 +432,14 @@
   }
 
   .intern-img {
-    margin: 2rem 8rem;
+    margin: 2rem auto;
     margin-bottom: 4rem;
+    width: 800px;
   }
 
   .intern-container {
     position: absolute;
-    top: 600px;
+    top: 550px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 3rem;
