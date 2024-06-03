@@ -4,7 +4,7 @@
 
 ## Description
 
-In this project we were asked to design and build a modern, accessible and responsive web presence for a made up museum client. The text content and images were provided and we could come up with a name for the museum. We were also free to create a placeholder logo for the client.
+In this project we were asked to design and build a modern, accessible and responsive web presence for a made up museum client. The text content and images were provided and we could come up with a name for the museum. We were also free to create a placeholder logo for the client. I chose to call my website "Bergen Science Museum".
 
 The site is supposed to appeal to youngsters without pandering; while aiming at a younger audience it should not patronize them with overtly childish themes. The core purpose of the site is to excite and entice people to visit the museum.
 
