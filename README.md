@@ -37,6 +37,16 @@ We had a few limitations for the project. JavaScript and CSS frameworks were not
 - HTML
 - CSS
 
+## Getting started
+
+### Installing
+
+Clone the repo:
+
+```bash
+git clone https://github.com/Inaelise/Semester-project-1.git
+```
+
 ## Contact
 
 [My LinkedIn page](https://www.linkedin.com/in/ina-elise-flom-b55433311/)
